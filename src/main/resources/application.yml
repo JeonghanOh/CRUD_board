@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/testdb?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
